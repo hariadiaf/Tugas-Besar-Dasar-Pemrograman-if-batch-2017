@@ -1,0 +1,51 @@
+Aplikasi Tiket Kereta
+
+FUNGSIOLITAS
+
+Aplikasi Tiket Kereta ini malayani penjualan tiket kereta,
+Semua data yang berkaitan dengan data penjualan diisikan oleh pihak stasiun. 
+===================================================================================================
+kemudian customer bisa melakukan reservasi tiket kemudian melakukan beberapa inputan untuk 
+1. memilih jadwal,
+2. memilih tempat duduk, 
+3. mengisi status pekerjaan, 
+4. memilih kelas, cara pembayaran, 
+5. kemudian customer dapat melihat tarif tiket. 
+6. Selain itu costomer dapat melihat cara refund, 
+7. laporan pengaduan terhadap pelayanan agen, 
+8. bahkan infomasi kecelakaan. 
+9. Status pekerjaan terdiri dari umum dan TNI, 
+	A. untuk pekerjaan umum tidak mendapat potongan tarif tiket, 
+	B. untuk pekerjaan TNI tarif tiket mendapat diskon 50% persen untuk hari senin-jumat dan 30% untuk sabtu-minggu
+
+
+KETENTUAN
+
+========Fungsionalitas minimum (POIN PENILAIAN)=====================================================
+
+1. Terdapat menu untuk yang mengelola data aplikasi. 
+	a. Ada insert, 
+	b. delete, 
+	c. edit/update
+	d. View dari data yang ada di dalam aplikasi. 
+
+2. -Data menyesuaikan topiknya yang telah ditentukan. 
+   -Data disimpan kedalam file ekstensi *.DAT, 
+   -kemudian file tersebut di load lagi ketika akan digunakan.
+(Hint: https://www.tutorialspoint.com/pascal/pascal_files_handling.htm ).
+
+3. Terdapat menu searching data yang akan ditampilkan terhadap suatu kategori 
+	(terdapat pilihan kategori, minimal 2 kategori, pencarian maximum dan minimum di anggap 1 kategori).
+	 Misalnya dosen mencari mahasiswa yang memiliki kategori jumlah kehadirannya paling sedikit.
+
+4. Terdapat menu lihat data yang sudah terurut berdasarkan suatu kategori 
+	(terdapat pilihan kategori, minimal 3 kategori, 
+	 masing-masing menggunakan bubble sort, selection dan insertion sort). 
+	 Misalnya data pasien yang ingin ditampilkan oleh admin terurut berdasarkan kategori tanggal.
+
+5. Penggunaan Error Handing karena kesalahan input adalah OPSIONAL.
+
+========Spesifikasi struktur data yang wajib digunakan================================================
+a. Terdapat pengunaan tipe data bentukan/record
+b. Terdapat array untuk tipe data bentukan atau array didalam tipe bntukan
+c. Terdapat proses penyimpanan data kedalam file DAT (*.dat) atau TEXT (*.txt)
